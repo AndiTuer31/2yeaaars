@@ -304,9 +304,9 @@ function Seaside() {
       <PicnicBlanket />
 
       {/* polaroids resting on blanket */}
-      <PolaroidOnSand id="sea-pic-1" top={540} left={360} rotate={-6} label="us, by the water"      src="photos/the-beach.jpeg" />
-      <PolaroidOnSand id="sea-pic-2" top={520} left={560} rotate={3}  label="bailey says hi"        src="photos/bailey-photobomb.jpeg" />
-      <PolaroidOnSand id="sea-pic-3" top={560} left={770} rotate={-2} label="#4 — still the best ;)" src="photos/still-the-best.jpeg" />
+      <PolaroidOnSand id="sea-pic-1" top={540} left={360} rotate={-6} label="us, by the water"      src="the-beach.jpeg" />
+      <PolaroidOnSand id="sea-pic-2" top={520} left={560} rotate={3}  label="bailey says hi"        src="bailey-photobomb.jpeg" />
+      <PolaroidOnSand id="sea-pic-3" top={560} left={770} rotate={-2} label="#4 — still the best ;)" src="still-the-best.jpeg" />
 
       {/* bottle on the left */}
       <Bottle onClick={()=>setLetter(true)} />
