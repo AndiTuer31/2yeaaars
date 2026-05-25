@@ -282,27 +282,27 @@ function Scrapbook() {
         top={64} left={680}
         label="the cutie"
         tapes={[{ style:{ top:-8, left:90, transform:'rotate(-6deg)' } }]}
-        src="photos/the-cutie.jpeg"
+        src="the-cutie.jpeg"
       />
       <Polaroid
         id="scrap-pic-2" rotate={3}
         top={88} left={960}
         label="bailey, photobomb"
         tapes={[{ style:{ top:-10, left:80, transform:'rotate(8deg)' }, color:'rgba(245,210,180,.7)' }]}
-        src="photos/bailey-photobomb.jpeg"
+        src="bailey-photobomb.jpeg"
       />
       <Polaroid
         id="scrap-pic-3" rotate={-2}
         top={420} left={56}
         label="the döner"
         tapes={[{ style:{ top:-9, left:90, transform:'rotate(-3deg)' } }]}
-        src="photos/the-doener.jpeg"
+        src="the-doener.jpeg"
       />
       <Polaroid
         id="scrap-pic-4" rotate={5}
         top={400} left={960}
         label="#4 — still the best ;)"
-        src="photos/still-the-best.jpeg"
+        src="still-the-best.jpeg"
         tapes={[
           { style:{ top:-10, left:30, transform:'rotate(-8deg)' }, color:'rgba(199,94,78,.55)' },
           { style:{ top:-10, left:130, transform:'rotate(6deg)' }, color:'rgba(199,94,78,.55)' },
