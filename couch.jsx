@@ -408,9 +408,9 @@ function CouchRoom() {
       <WallClock morning={morning} revealed={clockHinted} onClick={()=>setLetterOpen(true)} />
 
       {/* frames on the wall — 3 of them */}
-      <Frame id="couch-pic-1" top={70}  left={770} w={140} h={170} tilt={-2} caption="us"     src="photos/us-last-summer.jpeg" />
-      <Frame id="couch-pic-2" top={60}  left={960} w={150} h={190} tilt={3}  caption="bailey" src="photos/walking-bailey.jpeg" />
-      <Frame id="couch-pic-3" top={250} left={1110} w={120} h={140} tilt={-4} caption="#4 ;)" src="photos/still-the-best.jpeg" />
+      <Frame id="couch-pic-1" top={70}  left={770} w={140} h={170} tilt={-2} caption="us"     src="us-last-summer.jpeg" />
+      <Frame id="couch-pic-2" top={60}  left={960} w={150} h={190} tilt={3}  caption="bailey" src="walking-bailey.jpeg" />
+      <Frame id="couch-pic-3" top={250} left={1110} w={120} h={140} tilt={-4} caption="#4 ;)" src="still-the-best.jpeg" />
 
       {/* sub-title */}
       <div style={{
